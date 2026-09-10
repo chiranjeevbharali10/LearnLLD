@@ -44,3 +44,30 @@ A prototype platform that allows learners to practice Low-Level Design (LLD) pro
 - Single-user mode: Authentication is not implemented as per MVP scope.
 - Hardcoded Polling: The frontend uses HTTP polling every 3 seconds to check for evaluation completion. For a production system, Server-Sent Events (SSE) or WebSockets could be more optimal.
 - No Markdown Rendering: Text submissions and feedback are rendered in simple `pre` tags rather than rich markdown.
+
+
+
+
+# AI Usage Document
+
+*This document outlines 3-5 real AI-assisted decisions made during this build.*
+
+### 1. Decision: [Placeholder]
+- **What was suggested:** [Placeholder]
+- **What I accepted/rejected:** [Placeholder]
+- **Why:** [Placeholder]
+
+### 2. Decision: [Placeholder]
+- **What was suggested:** [Placeholder]
+- **What I accepted/rejected:** [Placeholder]
+- **Why:** [Placeholder]
+
+### 3. Decision: [Placeholder]
+- **What was suggested:** [Placeholder]
+- **What I accepted/rejected:** [Placeholder]
+- **Why:** [Placeholder]
+
+### 4. Decision: [Placeholder]
+- **What was suggested:** [Placeholder]
+- **What I accepted/rejected:** [Placeholder]
+- **Why:** [Placeholder]
