@@ -2,6 +2,26 @@
 
 A prototype platform that allows learners to practice Low-Level Design (LLD) problems, submit text-based designs, and receive AI-generated structured feedback.
 
+## Screenshots & UI Preview
+
+### 1. Problem Solving Workspace
+Learners review requirements, assumptions, and constraints in the context panel while writing their plain-text design solution in the submission workspace:
+
+#### Automated Parking Lot System
+![Automated Parking Lot System Workspace](screenshots/01-parking-lot-workspace.png)
+
+#### Elevator System
+![Elevator System Workspace](screenshots/02-elevator-system-workspace.png)
+
+### 2. AI-Powered Evaluation & Rubric Feedback
+Submissions are evaluated asynchronously against structured architectural criteria (requirement understanding, class responsibilities, coupling & cohesion, encapsulation, design patterns, extensibility, edge cases, and explanation quality):
+
+#### Evaluation Feedback - Criteria & Scores (Part 1)
+![Evaluation Feedback Part 1](screenshots/03-evaluation-feedback-part1.png)
+
+#### Evaluation Feedback - Deep-Dive & Actionable Fixes (Part 2)
+![Evaluation Feedback Part 2](screenshots/04-evaluation-feedback-part2.png)
+
 ## Tech Stack
 - **Backend:** Java 17, Spring Boot (Spring Web, Spring Data JPA)
 - **Database:** H2 Database (File-based storage to survive restarts)
